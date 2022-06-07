@@ -21,6 +21,11 @@ p {
     margin-right: 5vw;
 }
 
+#first_main_section {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
 #footer {
     display: grid;
     grid-template-columns: 1fr;
