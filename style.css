@@ -39,3 +39,14 @@ p {
     justify-items: center;
     background-color: rgb(230, 246, 246);
 }
+
+/* Tablet rules go after all mobile rules */
+
+@media only screen and (min-width: 600px) {
+
+    p {
+        box-shadow: 1px 1px 1px gray;
+    }
+}
+
+/* Desktop rules go after all tablet rules */
